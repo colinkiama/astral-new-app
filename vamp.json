@@ -1,0 +1,33 @@
+{
+    "name" : "astral-new-app",
+    "package-type" : "binary",
+    "version" : "0.0.1",
+    "description" : "This is created from astral's `new app` command.",
+    "license" : "ISC",
+    "author" : {
+        "name" : "Colin Kiama",
+        "email" : "colinkiama@gmal.com",
+        "url" : "https://www.colinkiama.com"
+    },
+    "files" : [
+        {
+            "directory" : "src/vala",
+            "file_types" : [
+                ".vala"
+            ]
+        },
+        {
+            "directory" : "src/c",
+            "file_types" : [
+                ".c",
+                ".h"
+            ]
+        },
+        {
+            "directory" : "src/vapi",
+            "file_types" : [
+                ".vapi"
+            ]
+        }
+    ]
+}
